@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LearnKotlin" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ButtonLogin">
+        <item name="android:background">@drawable/roundedbtnshape</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:color">@color/primary_color</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:elevation">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:height">54dp</item>
+    </style>
+    <style name="ButtonSignIn">
+        <item name="android:background">@drawable/roundedbtnshape</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:color">@color/Button_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense" >
+        <item name="android:background">@drawable/roundedbtnshape</item>
+        <item name="android:textColorHint">@color/opacity_text</item>
+        <item name="hintTextColor">@color/opacity_text</item>
+
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:color">@color/Button_color</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="dropdowninput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu" >
+<item name="android:background">@drawable/roundedbtnshape</item>
+    <item name="android:textColorHint">@color/opacity_text</item>
+
+    <item name="hintTextColor">@color/opacity_text</item>
+       <item name="android:textStyle">bold</item>
+    <item name="android:fontFamily">@font/nunito</item>
+    <item name="android:color">@color/Button_color</item>
+    <item name="android:textColor">@color/black</item>
+
+    </style>
+ <style name="inputTextEdit" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+
+        <item name="endIconDrawable">@drawable/eye</item>
+    </style>
+    <style name="corner_test" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

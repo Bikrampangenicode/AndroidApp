@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Next2It</string>
+
+    <string name="user_signIn">Sign in with UserName</string>
+    <string name="user_phone">Sign in With Phone number</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="signup">Sign up Here</string>
+    <string name="loginintext">user@aster.nex2it.fi</string>
+    <string name="password">Please enter the Password</string>
+    <string name="signin">Sign In</string>
+    <string name="forgetpw"><u>Forgot Password ?</u></string>
+    <string name="use_phone_signin">Please Sign in with Phonenumber.</string>
+    <string name="description_profile">Pick a Profile picture</string>
+    <string name="Name">Your name</string>
+    <string name="status">status</string>
+    <string name="signupComplete">Complete</string>
+    <string name="Packageselect">Select a Package</string>
+
+
+    <string-array name="package_select">
+        <item>Standard package</item>
+        <item>Premium package</item>
+        <item>OnDemand package</item>
+    </string-array>
+
+    <string-array name="status_dropdown">
+
+        <item>Online</item>
+        <item>Busy</item>
+        <item>Don\'t Disturb</item>
+        <item>offline</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_call_fragment">Hello call fragment</string>
+
+</resources>
